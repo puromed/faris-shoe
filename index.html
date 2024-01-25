@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasut.com</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- box icons  -->
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'>
+    <!-- swiper js cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header -->
+
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-shoe-prints"></i> Kasut.com</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#product">product</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="Shopping Cart/Index.html" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+        </div>
+
+        <form action="" class="search-form">
+            <input type="search" name="" id="search-box" placeholder="search here...">
+            <label class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- /header -->
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+        <div class="slides-container">
+
+            <div class="slide active">
+                <div class="content">
+                    <span>new summer</span>
+                    <h3>shoes online</h3>
+                    <p>Reach your peak with our quality and affordable products. We believe our store has everything you
+                        want.
+                    <p>
+                        <button class="btn">
+                            <a href="Shopping Cart/Index.html">shop now</a>
+                        </button>
+                </div>
+
+                <div class="image">
+                    <img src="images/header-1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <span>new summer</span>
+                    <h3>shoes collection</h3>
+                    <p>Reach your peak with our quality and affordable products. We believe our store has everything you
+                        want.</p>
+                    <button class="btn">
+                        <a href="Shopping Cart/Index.html">shop now</a>
+                    </button>
+
+                    <br>
+
+                    <p><audio controls>
+                            <source src="audio/Blue_Bird.ogg" type="audio/ogg">
+                            <source src="audio/Blue_Bird.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                        </audio></p>
+                </div>
+                <div class="image">
+                    <img src="images/header-2.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="slide">
+                <div class="content">
+                    <span>new summer</span>
+                    <h3>shoes collection</h3>
+                    <p>Reach your peak with our quality and affordable products. We believe our store has everything you
+                        want.</p>
+                    <button class="btn">
+                        <a href="Shopping Cart/Index.html">shop now</a>
+                    </button>
+                </div>
+                <div class="image">
+                    <video width="320" height="240" controls>
+                        <source src="video/video-2.mp4" type="video/mp4">
+                        <source src="video/video-2.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="slide-next" onclick="next()" class="fas fa-angle-right"></div>
+        <div id="slide-prev" onclick="prev()" class="fas fa-angle-left"></div>
+
+    </section>
+
+    <!-- /home -->
+
+    <!-- banner -->
+
+    <section class="banner-container">
+
+        <div class="banner">
+            <img src="images/ban-1.png" alt="">
+            <div class="content">
+                <span>Clearance sale</span>
+                <h3>Up To 40% off</h3>
+                <button class="btn">
+                    <a href="Shopping Cart/Index.html">shop now</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="banner">
+            <img src="images/ban-2.png" alt="">
+            <div class="content">
+                <span>Clearance sale</span>
+                <h3>Up To 40% off</h3>
+                <button class="btn">
+                    <a href="Shopping Cart/Index.html">shop now</a>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- /banner -->
+
+    <!-- featured product -->
+
+    <section class="product" id="product">
+
+        <h1 class="heading"><span>featured</span> products</h1>
+
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-30%</span>
+                    <div class="image">
+                        <img src="images/shoes-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>New Balance 550 "Green"</h3>
+                        <div class="price">$66.36(RM349.00)</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-40%</span>
+                    <div class="image">
+                        <img src="images/shoes-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Nike Dunk Low "Grey Fog"</h3>
+                        <div class="price">$58.97(RM279.00)</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-30%</span>
+                    <div class="image">
+                        <img src="images/shoes-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Adidas Handball Spezial</h3>
+                        <div class="price">$66.36(RM314.00)</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-30%</span>
+                    <div class="image">
+                        <img src="images/shoes-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Adidas Streetball Shoes</h3>
+                        <div class="price">$48.82(RM231.00)</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-40%</span>
+                    <div class="image">
+                        <img src="images/shoes-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Puma Atelier New Regime</h3>
+                        <div class="price">$46.50(RM220.00)</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-30%</span>
+                    <div class="image">
+                        <img src="images/shoes-6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Puma 180 Tones</h3>
+                        <div class="price">$52.84(RM250.00)</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-30%</span>
+                    <div class="image">
+                        <img src="images/shoes-7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Puma X-Ray 2</h3>
+                        <div class="price">$95.11(RM450.00)</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <span class="discount">-30%</span>
+                    <div class="image">
+                        <img src="images/shoes-8.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Adidas Response cl</h3>
+                        <div class="price">$63.40(RM300.00)</div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+        </div>
+
+    </section>
+
+    <!-- /featured product -->
+
+    <!-- review -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"><span>client's</span> review</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic-1.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Mohd Sofian</h3>
+                    <p>Very nice shoes and good service! I will recommend to customers to buy here.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Alif Satar</h3>
+                    <p>The shoes arrived in good condition. I feel interested in buying shoes here again.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Nabil Ahmad</h3>
+                    <p>Masya Allah!!! This is an amazing shoe quality. I really appreciate the service by the Kasut.com
+                        store.</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/pic-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Mira Filzah</h3>
+                    <p>Alhamdulillah,I can't believe that the shoes here are reasonably priced.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- /review -->
+
+    <!-- send gift -->
+
+    <section class="send">
+
+        <div class="container">
+
+            <div class="content">
+                <h2 class="title">send gift now</h2>
+                <p>Send your friends and family a pair of shoes as a present to spread happiness. </p>
+                <form action="">
+                    <input type="text" class="input" placeholder="House Address">
+                    <a href="#" class="btn">send</a>
+                </form>
+            </div>
+            <div class="image">
+                <img src="images/Send gift.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- /send gift -->
+
+    <!-- contact -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"><span>contact</span> us</h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/Contact.jpg" alt="">
+            </div>
+
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <input type="text" placeholder="Name">
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Subject">
+                </div>
+                <textarea placeholder="Your Message" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- /contact -->
+
+    <!-- footer -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Our Store Offers A Variety Of Quality Shoe Sales That Can Make You Satisfied.
+                    We Want To Provide The Best Service To Our Customers According To The Set Targets.</p>
+
+            </div>
+
+            <div class="box">
+                <h3>Opening Time</h3>
+                <p><b>Mon-Tue:</b> 10AM-9PM</p>
+                <p><b>Wed-thu:</b> 9AM-8PM </p>
+                <p><b>Fri: </b> Closed</p>
+                <p><b>Sat-Sun:</b> 10AM-9AM</p>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#product">product</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </div>
+
+            <div class="box">
+                <h3>social links</h3>
+                <a href="https://www.facebook.com/mohd.fhreal/"> <i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="https://x.com/haronma_?s=21&t=Rg1Dd5Bik5tBMV41azZn_A"> <i class="fab fa-twitter"></i>
+                    twitter</a>
+                <a href="https://www.instagram.com/haronma_?igsh=OG44b3M5ZGVqeGdy&utm_source=qr"> <i
+                        class="fab fa-instagram"></i> instagram</a>
+                <a href="mailto:farishakim602@gmail.com"><i class='bx bxs-envelope'></i>Email</a>
+            </div>
+
+        </div>
+
+        <!-- /footer -->
+
+        <!-- swiper js cdn link -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <!-- custom js file link  -->
+        <script src="script.js"></script>
+</body>
+
+</html>

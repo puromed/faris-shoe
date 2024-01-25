@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasut.com | ShoppingCart</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- box icons  -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- styles  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    
+    <header>
+        
+        <div class="nav container">
+            <a href="#" class="logo"> <i class="fas fa-shoe-prints"></i> Kasut.com</a>
+            <i class="fas fa-shopping-cart" id="cart-icon"></i>
+
+            <div class="cart">
+                <h2 class="cart-title">My Cart</h2>
+                
+                <div class="cart-content">
+                    <div class="cart-box">
+                        <img src="images/shoes-2.jpg" alt="" class="cart-img">
+                        <div class="detail-box">
+                            <div class="cart-product-title">Nike Dunk Low "Grey Fog"</div>
+                            <div class="cart-price">$58.97 (RM279.00)</div>
+                            <input type="number" value="1" class="cart-quantity">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TOTAL   -->
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">$0 </div>
+                </div>
+                <!-- BUY BUTTON  -->
+                <button type="button" class="btn-buy">Buy Now</button>
+                <!-- CART CLOSE  -->
+                <i class='bx bx-x' id="cart-close"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- SHOP SECTION  -->
+    <section class="shop container">
+        <h2 class="section-title">Latest Products</h2>
+
+        <!-- CONTENT  -->
+        <div class="shop-content">
+            <!-- BOX 1 -->
+            <div class="product-box">
+                <img src="images/shoes-1.jpg" alt="" class="product-img">
+                <h2 class="product-title">New Balance 550 "Green"</h2>
+                <span class="product-price">$66.36(RM349.00)</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- BOX 2 -->
+            <div class="product-box">
+                <img src="images/shoes-2.jpg" alt="" class="product-img">
+                <h2 class="product-title">Nike Dunk Low "Grey Fog"</h2>
+                <span class="product-price">$58.97(RM279.00)</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- end -->
+
+            <!-- BOX 3 -->
+            <div class="product-box">
+                <img src="images/shoes-3.jpg" alt="" class="product-img">
+                <h2 class="product-title">Adidas Handball Spezial</h2>
+                <span class="product-price">$66.36(RM314.00)</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- end -->
+
+            <!-- BOX 4 -->
+            <div class="product-box">
+                <img src="images/shoes-4.jpg" alt="" class="product-img">
+                <h2 class="product-title">Adidas Streetball Shoes</h2>
+                <span class="product-price">$48.82(RM231.00)</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- end -->
+
+            <!-- BOX 5 -->
+            <div class="product-box">
+                <img src="images/shoes-5.jpg" alt="" class="product-img">
+                <h2 class="product-title">Puma Atelier New Regime</h2>
+                <span class="product-price">$46.50(RM220.00)</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- end -->
+
+            <!-- BOX 6 -->
+            <div class="product-box">
+                <img src="images/shoes-6.jpg" alt="" class="product-img">
+                <h2 class="product-title">Puma 180 Tones</h2>
+                <span class="product-price">$52.84(RM250.00)</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- end -->
+
+            <!-- BOX 7 -->
+            <div class="product-box">
+                <img src="images/shoes-7.jpg" alt="" class="product-img">
+                <h2 class="product-title">Puma X-Ray 2</h2>
+                <span class="product-price">$95.11(RM450.00)</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- end -->
+
+            <!-- BOX 8 -->
+            <div class="product-box">
+                <img src="images/shoes-8.jpg" alt="" class="product-img">
+                <h2 class="product-title">Adidas Response cl</h2>
+                <span class="product-price">$63.40(RM300.00)</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!-- end -->
+
+        </div>
+    </section>
+
+    <!-- link js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
